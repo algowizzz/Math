@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlashMath | calculus</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Doto:wght@100..900&family=DynaPuff:wght@400..700&family=Kablammo&family=Rubik:ital,wght@0,300..900;1,300..900&family=Share+Tech+Mono&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="navbar__menu">
+      <li class="navbar__item">
+        <a href="index.html" class="navbar__link">
+          <i data-feather="home"></i>
+          <span>Home</span>
+        </a>
+      </li>
+
+      <li class="navbar__item">
+        <a href="algebra.html" class="navbar__link">
+          f(x)
+          <span>Algebra</span>
+        </a>
+      </li>
+
+      <li class="navbar__item">
+        <a href="geometry.html" class="navbar__link">
+            πr²
+          <span>Geometry</span>
+        </a>
+      </li>
+
+      <li class="navbar__item">
+        <a href="trigonometry.html" class="navbar__link">
+          sin θ
+          <span>Trigonometry</span>
+        </a>
+      </li>
+
+      <li class="navbar__item">
+        <a href="calculus.html" class="navbar__link">
+            df/dx
+          <span>Calculus</span>
+        </a>
+      </li>
+
+      <li class="navbar__item">
+        <a href="feedback.html" class="navbar__link">
+            <i data-feather="edit"></i> 
+          <span>Send Feedback</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="main-content">
+    
+    <header class="header">
+      <h1>FlashMath | calculus</h1>
+    </header>
+    <div style="margin-top: 80px;"></div>
+    <h2 id="one">derivatives</h2>
+    <section class="flashcard" style="grid-template-columns: repeat(6, 1fr); width: 98%;">
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            d/dx (xⁿ) =
+          </div>
+          <div class="card__face card__back">
+            nxⁿ⁻¹
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            d/dx (eˣ) =
+          </div>
+          <div class="card__face card__back">
+            eˣ
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            d/dx (ln(x)) =
+          </div>
+          <div class="card__face card__back">
+            1/x
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            d/dx (sin(x)) =
+          </div>
+          <div class="card__face card__back">
+            cos(x)
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            d/dx (cos(x)) =
+          </div>
+          <div class="card__face card__back">
+            -sin(x)
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            d/dx (tan(x)) =
+          </div>
+          <div class="card__face card__back">
+            sec²(x)
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <br>
+
+    <h2 id="two">integration</h2>
+    <section class="flashcard" style="grid-template-columns: repeat(6, 1fr); width: 98%;">
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            ∫ xⁿ dx =
+          </div>
+          <div class="card__face card__back">
+            xⁿ⁺¹ / (n + 1) + C
+          </div>
+        </div>
+      </div>
+      
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            ∫ eˣ dx =
+          </div>
+          <div class="card__face card__back">
+            eˣ + C
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            ∫ 1/x dx =
+          </div>
+          <div class="card__face card__back">
+            ln|x| + C
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            ∫ sin(x) dx =
+          </div>
+          <div class="card__face card__back">
+            -cos(x) + C
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            ∫ cos(x) dx =
+          </div>
+          <div class="card__face card__back">
+            sin(x) + C
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 3/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            ∫ sec²(x) dx =
+          </div>
+          <div class="card__face card__back">
+            tan(x) + C
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <br>
+
+    <h2 id="three">limits</h2>
+    <section class="flashcard" style="grid-template-columns: repeat(3, 1fr); width: 98%;">
+      <div class="card" style="aspect-ratio: 6/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            lim x → 0 (sin(x)/x) =
+          </div>
+          <div class="card__face card__back">
+            1
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 6/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            lim x → 0 (1 - cos(x))/x² =
+          </div>
+          <div class="card__face card__back">
+            1/2
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 6/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            lim x → 0 (eˣ - 1)/x =
+          </div>
+          <div class="card__face card__back">
+            1
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 6/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            lim x → ∞ (1 + 1/x)ˣ =
+          </div>
+          <div class="card__face card__back">
+            e
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 6/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            lim x → 0+ ln(x) =
+          </div>
+          <div class="card__face card__back">
+            -∞
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 6/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            lim x → 0 (tan(x)/x) =
+          </div>
+          <div class="card__face card__back">
+            1
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <br>
+
+    <h2 id="four">fundamental theorems</h2>
+    <section class="flashcard" style="grid-template-columns: repeat(2, 1fr); width: 98%;">
+      <div class="card" style="aspect-ratio: 9/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            First Fundamental Theorem of Calculus =
+          </div>
+          <div class="card__face card__back">
+            F'(x) = f(x)
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 9/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            Rolle's Theorem =
+          </div>
+          <div class="card__face card__back">
+            f'(c) = 0
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 9/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            Second Fundamental Theorem of Calculus =
+          </div>
+          <div class="card__face card__back">
+            ∫ [a, b] f(x) dx = F(b) - F(a)
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 9/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            Taylor Series =
+          </div>
+          <div class="card__face card__back">
+            f(x) = Σ (fⁿ(a)/n!) (x - a)ⁿ
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="card" style="aspect-ratio: 9/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            Mean Value Theorem (MVT) =
+          </div>
+          <div class="card__face card__back">
+            f'(c) = [f(b) - f(a)]/(b - a)
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="aspect-ratio: 9/1;">
+        <div class="card__inner">
+          <div class="card__face card__front">
+            L'Hôpital's Rule =
+          </div>
+          <div class="card__face card__back">
+            lim x→a f(x)/g(x) = f'(x)/g'(x)
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <br>
+
+    <h2 id = "quiz-heading">test your knowledge!</h2>
+
+    <section id="geometry-quiz">
+      <div id="start-game">
+        <button id="start-btn">Start Quiz</button>
+    </div>
+    
+    <div id="in-game" class="hidden quiz-container">
+        <span id="Qno">0</span id="dot"><span>. </span><span id="question"></span>
+        <br>
+        <br>
+        <div id="options">
+            <button class="answer-btn"></button>
+            <button class="answer-btn"></button>
+            <button class="answer-btn"></button>
+            <button class="answer-btn"></button>
+        </div>
+        <p class="jeevan">score: <span id="score">0</span></p>
+        <button id="next-question-btn" class="hidden">Next Question</button>
+    </div>
+    
+    <div id="end-game" class="hidden">
+        <p id="final-score"></p>
+        <p id="end-message"></p>
+    </div>
+    
+    <script id="question-bank" type="application/json">
+    [
+      {
+        "question": "Find \\(\\frac{d}{dx}(x^2 + 3x + 5)\\).",
+        "correctAnswer": "\\(2x + 3\\)",
+        "incorrectAnswers": ["\\(2x\\)", "\\(3x + 5\\)", "\\(x^2 + 3\\)"]
+      },
+      {
+        "question": "Evaluate \\(\\int (3x^2 + 2x) \\, dx\\).",
+        "correctAnswer": "\\(x^3 + x^2 + C\\)",
+        "incorrectAnswers": ["\\(x^3 + 2x + C\\)", "\\(3x^3 + 2x^2 + C\\)", "\\(3x^2 + 2x + C\\)"]
+      },
+      {
+        "question": "What is \\(\\lim_{x \\to 2} (x^2 - 4)\\)?",
+        "correctAnswer": "0",
+        "incorrectAnswers": ["4", "8", "-4"]
+      },
+      {
+        "question": "Find \\(\\frac{d}{dx}(\\sin(x))\\).",
+        "correctAnswer": "\\(\\cos(x)\\)",
+        "incorrectAnswers": ["\\(-\\cos(x)\\)", "\\(\\sin(x)\\)", "\\(-\\sin(x)\\)"]
+      },
+      {
+        "question": "Evaluate \\(\\int \\cos(x) \\, dx\\).",
+        "correctAnswer": "\\(\\sin(x) + C\\)",
+        "incorrectAnswers": ["\\(-\\sin(x) + C\\)", "\\(\\cos(x) + C\\)", "\\(-\\cos(x) + C\\)"]
+      },
+      {
+        "question": "Evaluate \\(\\int_0^1 (3x^2 + 2x) \\, dx\\).",
+        "correctAnswer": "\\(\\frac{10}{3}\\)",
+        "incorrectAnswers": ["\\(2\\)", "\\(4\\)", "\\(1\\)"]
+      },
+      {
+        "question": "Find the derivative of \\(f(x) = x^3 + 4x^2 - 5x + 1\\).",
+        "correctAnswer": "\\(3x^2 + 8x - 5\\)",
+        "incorrectAnswers": ["\\(3x^2 + 4x + 1\\)", "\\(2x^2 + 8x - 5\\)", "\\(3x^2 - 4x + 1\\)"]
+      },
+      {
+        "question": "What is the limit \\(\\lim_{x \\to 0} \\frac{\\sin(x)}{x}\\)?",
+        "correctAnswer": "1",
+        "incorrectAnswers": ["0", "undefined", "2"]
+      },
+      {
+        "question": "Find the second derivative of \\(f(x) = x^2 + 2x + 1\\).",
+        "correctAnswer": "\\(2\\)",
+        "incorrectAnswers": ["\\(1\\)", "\\(4\\)", "\\(0\\)"]
+      },
+      {
+        "question": "Evaluate \\(\\int e^x \\, dx\\).",
+        "correctAnswer": "\\(e^x + C\\)",
+        "incorrectAnswers": ["\\(e^x\\)", "\\(xe^x + C\\)", "\\(e^{2x} + C\\)"]
+      },
+      {
+        "question": "Find \\(\\frac{d}{dx}(e^x)\\).",
+        "correctAnswer": "\\(e^x\\)",
+        "incorrectAnswers": ["\\(x^e\\)", "\\(1\\)", "\\(e\\)"]
+      },
+      {
+        "question": "What is \\(\\int_0^{\\infty} e^{-x} \\, dx\\)?",
+        "correctAnswer": "\\(1\\)",
+        "incorrectAnswers": ["0", "\\(\\infty\\)", "\\(e^{-1}\\)"]
+      },
+      {
+        "question": "Find \\(\\frac{d}{dx}(\\ln(x))\\).",
+        "correctAnswer": "\\(\\frac{1}{x}\\)",
+        "incorrectAnswers": ["\\(x\\)", "\\(\\ln(x)\\)", "\\(1\\)"]
+      },
+      {
+        "question": "Evaluate \\(\\int_1^2 x^3 \\, dx\\).",
+        "correctAnswer": "\\(\\frac{15}{4}\\)",
+        "incorrectAnswers": ["\\(6\\)", "\\(5\\)", "\\(10\\)"]
+      },
+      {
+        "question": "Find the derivative of \\(f(x) = \\ln(x^2 + 1)\\).",
+        "correctAnswer": "\\(\\frac{2x}{x^2 + 1}\\)",
+        "incorrectAnswers": ["\\(\\frac{2x}{x+1}\\)", "\\(\\frac{x}{x^2 + 1}\\)", "\\(\\frac{1}{x^2 + 1}\\)"]
+      },
+      {
+        "question": "What is the integral of \\(\\sec^2(x)\\)?",
+        "correctAnswer": "\\(\\tan(x) + C\\)",
+        "incorrectAnswers": ["\\(\\sin(x) + C\\)", "\\(\\cos(x) + C\\)", "\\(\\ln(x) + C\\)"]
+      },
+      {
+        "question": "What is the limit of \\(\\frac{x^2 - 1}{x - 1}\\) as \\(x \\to 1\\)?",
+        "correctAnswer": "2",
+        "incorrectAnswers": ["1", "0", "undefined"]
+      },
+      {
+        "question": "Find \\(\\frac{d}{dx}(x^x)\\).",
+        "correctAnswer": "\\(x^x (1 + \\ln(x))\\)",
+        "incorrectAnswers": ["\\(x^x\\)", "\\(x^x (1 - \\ln(x))\\)", "\\(1\\)"]
+      },
+      {
+        "question": "Evaluate \\(\\int x^2 e^x \\, dx\\).",
+        "correctAnswer": "\\(x^2 e^x - 2x e^x + 2e^x + C\\)",
+        "incorrectAnswers": ["\\(x^2 e^x + 2x e^x + C\\)", "\\(x^2 e^x - x e^x + C\\)", "\\(x e^x + C\\)"]
+      },
+      {
+        "question": "Find the derivative of \\(f(x) = \\tan(x)\\).",
+        "correctAnswer": "\\(\\sec^2(x)\\)",
+        "incorrectAnswers": ["\\(\\sin(x)\\)", "\\(\\cos(x)\\)", "\\(\\sec(x)\\)"]
+      }
+    ]
+    </script>
+    
+
+  </main>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script>
+    feather.replace();
+
+    var cards = document.querySelectorAll('.card');
+
+    cards.forEach(function(card) {
+      card.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (card.classList.contains('card--flipped')) {
+          card.classList.add('card--unflip');
+          setTimeout(function () {
+            card.classList.remove('card--flipped', 'card--unflip');
+          }, 500);
+        } else {
+          card.classList.add("card--flipped");
+        }
+      });
+    });
+  </script>
+  <script src="quiz.js"></script>
+</body>
+</html>
